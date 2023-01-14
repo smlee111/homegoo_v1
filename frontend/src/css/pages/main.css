@@ -1,0 +1,138 @@
+/* MainVisual */
+.mainVisual {
+    width: 100%; height: 400px;
+    background: url('../../assets/images/mv01.jpg')no-repeat center; background-size: 100% auto; background-position: 0 80%;
+    position: relative;
+}
+
+.mainVisual > .wrap {
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,.4);
+    padding: 130px 0 0;
+}
+
+.mainVisual .tit {
+    text-align: center; letter-spacing: -1px; line-height: 65px; color:#fff; font-size:48px; font-weight: 100;
+}
+
+.mainVisual .tit span {
+    display: inline-block;
+    font-size:50px; font-weight: 200;
+    margin: 0 0 0 20px;
+}
+
+.mainVisual .searchBox {
+    margin: 20px auto;
+}
+
+/* menu-depth-detail */
+.menu-depth-detail {
+    width: 1400px; background: #fff;
+    position: absolute;top: 0;left: 50%; transform: translateX(-50%);
+}
+
+.menu-depth-detail > .w1400 > li {
+    display: none;
+    height: 300px; border: 1px solid #dae1e6; border-top: 0;
+}
+
+.menu-depth-detail > .w1400 > li:first-child {
+    width: 0; height: 0; border: 0;
+}
+
+.menu-depth-detail .menu {
+    overflow: hidden;
+    margin: 0 0 0 100px;
+}
+
+.menu-depth-detail .menu > li {
+    float: left;
+}
+
+.menu-depth-detail .menu > li .thumb {
+    width: 100px; height: 100px; background: #eee;
+}
+
+/* sec-main */
+/* basic */
+.sec-main {
+    width: 100%; background: #fff;
+    padding: 85px 0 90px;
+}
+
+.sec-main .w1400 > .tit {
+    letter-spacing: -1px; font-size: 30px; font-weight: 600;
+    margin: 0 0 23px;
+}
+
+.sec-main .w1400 > .tit span {
+    display: inline-block;
+    letter-spacing: 0; color:#888; font-size: 13px; font-weight: 400;
+    margin: 0 0 0 8px;
+}
+
+/* sec-main-01 */
+.list-product-home {
+    overflow: hidden;
+}
+
+.list-product-home li {
+    float: left;
+    width: 24.25%; height: 360px; border-radius: 10px; border: 1px solid #dae1e6;
+    margin: 0 1% 0 0; padding: 40px 0;
+    position: relative;
+}
+
+.list-product-home li:last-child {
+    margin: 0;
+}
+
+.list-product-home li img {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.list-product-home li a {
+    width: 100%; height: 100%;
+    position: absolute;top: 0;left: 0;
+}
+
+.list-product-home li .tit {
+    text-align: center; letter-spacing: -1px; line-height: 30px; color:#33cccc; font-size:23px; font-weight: 600;
+    margin: 15px 0 10px;
+}
+
+.list-product-home li .sub {
+    text-align: center; color:#888; font-size:15px; font-weight: 300;
+}
+
+.list-product-home li .btn-go {
+    width: 40px; height: 40px; border-radius: 100%; background: #33cccc;
+    line-height: 40px; text-align: center; color:#fff; font-size: 13px; font-weight: 600;
+    margin: 25px auto 0;
+}
+
+/* sec-main-02 */
+.sec-main.sec-main-02 {
+    background: #f8f9fb;
+}
+
+/* searchBox */
+.searchBox {
+    overflow: hidden;
+    width: 500px; height: 50px; background: #fff; border-radius: 25px;
+    position: relative;
+}
+
+.searchBox input {
+    width: 440px; height: 50px; background: #fff; border: 0; outline: 0;
+    margin: 0; padding: 0;
+    position: absolute;top: 0;left: 60px;
+    font-size: 16px;
+}
+
+.searchBox img {
+    width: 20px; height: 20px;
+    position: absolute;top: 14px;left: 20px;
+}

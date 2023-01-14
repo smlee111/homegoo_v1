@@ -1,0 +1,54 @@
+/* Footer */
+.footer {
+    overflow: hidden;
+    width: 100%;
+    padding: 50px 0 80px;
+}
+
+.footer .identity {
+    float: left;
+    width: 20%;
+}
+
+.footer .identity .logo {
+    width: 90px; height: 90px;
+    color:#33cccc; font-size:30px;
+}
+
+.footer .identity .logo img {
+    width: 100%;
+}
+
+.footer .identity .copy {
+    line-height: 20px; color:#222; font-size: 11px;
+    margin: 10px 0 0;
+}
+
+.footer .sec {
+    float: left; overflow: hidden;
+    width: 80%;
+}
+
+.footer .sec > li {
+    float: left;
+    width: 25%;
+}
+
+.footer .sec > li > ul > li {    
+    text-indent: 8px; color:#888; font-size:12px;
+    margin: 12px 0 0;
+    position: relative;
+}
+
+.footer .sec > li > ul > li:first-child {
+    display: inline-block;
+    border: 1px solid #dae1e6; border-radius: 15px;
+    padding: 5px 8px;
+    text-indent: 0; font-size:11px; font-weight: 500;
+}
+
+.footer .sec > li > ul > li > span {
+    display: inline-block;
+    width: 3px; height: 3px; background: #ddd;
+    position: absolute;top: 50%;left: 0; transform: translateY(-50%);
+}
